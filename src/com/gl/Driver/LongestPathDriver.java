@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 public class LongestPathDriver {
 
+	//Initializing Node class
 	static class Node {
 		int key;
 		Node leftNode,rightNode;
@@ -45,9 +46,9 @@ public class LongestPathDriver {
 		}
 	}
 
-
+	
 	private static ArrayList<Integer> findTheLongestPath(Node root) {
-		// TODO Auto-generated method stub
+		// Method used to find the longest path. Recursive function
 		
 		if(root == null)
 		{
